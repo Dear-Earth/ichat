@@ -1,0 +1,19 @@
+{
+  "name": "keyhouse",
+  "version": "1.0.0",
+  "description": "This is our iChat",
+  "main": "index.js",
+  "scripts": {
+    "start":"node app.js",
+    "dev":"nodemon app.js"
+  },
+  "author": "Arpit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
